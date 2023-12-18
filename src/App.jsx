@@ -19,32 +19,35 @@ import ProductList from "./page/ProductList";
 function App() {
   return (
     <div className="app-container">
+      <div className="app-container_list">
+        <BrowserRouter>
+          <Header />
+          {/* <HeaderMobile /> */}
 
-      <BrowserRouter>
-        <Header />
-        {/* <HeaderMobile /> */}
+          <ScrollToTop />
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route
+              path="/tramtintuc"
+              element={<Tramtintuc />}
+            />
+            <Route path="/detail" element={<Detail />} />
+            <Route path="/payment" element={<Payment />} />
+            <Route path="/login" element={<Login />} />
+            <Route
+              path="/productdetail"
+              element={<ProductDetail />}
+            />
+            <Route
+              path="/productlist"
+              element={<ProductList />}
+            />
+          </Routes>
+          <Footer />
+        </BrowserRouter>
+      </div>
 
-        <ScrollToTop />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route
-            path="/tramtintuc"
-            element={<Tramtintuc />}
-          />
-          <Route path="/detail" element={<Detail />} />
-          <Route path="/payment" element={<Payment />} />
-          <Route path="/login" element={<Login />} />
-          <Route
-            path="/productdetail"
-            element={<ProductDetail />}
-          />
-          <Route
-            path="/productlist"
-            element={<ProductList />}
-          />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
+
     </div>
   );
 }
