@@ -11,8 +11,13 @@
     color: #313d5d;
 }
 
-.home-category ul {
+.home-category{
     display: flex;
+    justify-content: center;
+}
+.home-category ul {
+    display: inline-flex;
+    flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
     align-items: center;

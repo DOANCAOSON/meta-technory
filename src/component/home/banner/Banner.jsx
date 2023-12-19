@@ -15,7 +15,7 @@ const Banner = () => {
         </div>
         <div className="home-banner__list">
           <div className='home-banner__list--container'>
-            <div>
+            <div className='home-banner__list--container__item'>
               <div className='home-banner__list--container_list--img'>
                 <img src="https://gobomus.com/wp-content/uploads/2023/10/logo_v001-800x340.jpg" alt="" />
                 <div>Health</div>
@@ -53,9 +53,9 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className='banner-home__container--list'>
             <div className='banner-home__container'>
-              <div>
+              <div className='banner-home__container_list--img'>
                 <div className='banner-home__list--img'>
                   <img src="
                 https://gobomus.com/wp-content/uploads/2023/06/michael-hirsch-tXkzUEuheU-unsplash-300x225.jpg" alt="https://gobomus.com/wp-content/uploads/2023/06/michael-hirsch-tXkzUEuheU-unsplash-300x225.jpg" />
@@ -72,13 +72,15 @@ const Banner = () => {
                       June 6, 2023
                     </p>
                   </div>
-                  <div>
-                    <div className='home--banner__dot'>
-                      .
+                  <div className='home--banner__info--mobile'>
+                    <div>
+                      <div className='home--banner__dot'>
+                        .
+                      </div>
                     </div>
-                  </div>
-                  <div className='home--banner__info--time'>
-                    No Comment
+                    <div className='home--banner__info--time'>
+                      No Comment
+                    </div>
                   </div>
                 </div>
 
@@ -90,7 +92,7 @@ const Banner = () => {
               </div>
             </div>
             <div className='banner-home__container'>
-              <div>
+              <div className='banner-home__container_list--img'>
                 <div className='banner-home__list--img'>
                   <img src="
                https://gobomus.com/wp-content/uploads/2023/06/brooke-cagle-B_LjR_poGgo-unsplash-300x200.jpg" alt="https://gobomus.com/wp-content/uploads/2023/06/brooke-cagle-B_LjR_poGgo-unsplash-300x200.jpg" />
@@ -107,14 +109,17 @@ const Banner = () => {
                       June 6, 2023
                     </p>
                   </div>
-                  <div>
-                    <div className='home--banner__dot'>
-                      .
+                  <div className='home--banner__info--mobile'>
+                    <div>
+                      <div className='home--banner__dot'>
+                        .
+                      </div>
+                    </div>
+                    <div className='home--banner__info--time'>
+                      No Comment
                     </div>
                   </div>
-                  <div className='home--banner__info--time'>
-                    No Comment
-                  </div>
+
                 </div>
 
                 <div>
@@ -125,7 +130,7 @@ const Banner = () => {
               </div>
             </div>
             <div className='banner-home__container'>
-              <div>
+              <div className='banner-home__container_list--img'>
                 <div className='banner-home__list--img'>
                   <img src="
                 https://gobomus.com/wp-content/uploads/2023/06/michael-hirsch-tXkzUEuheU-unsplash-300x225.jpg" alt="https://gobomus.com/wp-content/uploads/2023/06/michael-hirsch-tXkzUEuheU-unsplash-300x225.jpg" />
@@ -142,14 +147,17 @@ const Banner = () => {
                       June 6, 2023
                     </p>
                   </div>
-                  <div>
-                    <div className='home--banner__dot'>
-                      .
+                  <div className='home--banner__info--mobile'>
+                    <div>
+                      <div className='home--banner__dot'>
+                        .
+                      </div>
+                    </div>
+                    <div className='home--banner__info--time'>
+                      No Comment
                     </div>
                   </div>
-                  <div className='home--banner__info--time'>
-                    No Comment
-                  </div>
+
                 </div>
                 <div>
                   <div className="banner-home__btn">

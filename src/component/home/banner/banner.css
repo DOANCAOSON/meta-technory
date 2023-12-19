@@ -1,221 +1,281 @@
 .home-banner {
-    margin: 100px 0px;
+  margin: 100px 0px;
 }
 
 .home-banner__heading {
-    font-size: 42px;
-    font-weight: 700;
-    text-align: center;
-    color: #313d5d;
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  color: #313d5d;
 }
 
 .home-banner__desc {
-    font-size: 16px;
-    text-align: center;
-    color: #5b6b80;
+  font-size: 16px;
+  text-align: center;
+  color: #5b6b80;
 }
 
 .home-banner__list {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-    margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 40px;
 }
 
-.home-banner__list--container {
-    border-radius: 15px;
-    border: 1px solid #e4e5ea;
-    padding: 0px 20px;
-    height: 500px;
-    transition: box-shadow 0.3s ease;
+.home-banner__list--container__item {
+  border: 1px solid #e4e5ea;
+  transition: box-shadow 0.3s ease;
+  padding: 0px 20px 40px;
+  border-radius: 15px;
 }
 
-.home-banner__list--container:hover {
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+.home-banner__list--container__item:hover {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 .home--banner__info {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 33px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
 }
 
 .home--banner__info--item {
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
 }
 
 .home-banner__list--item__heading {
-    font-size: 29px;
-    color: #313d5d;
-    line-height: 40px;
-    margin-bottom: 40px;
+  font-size: 29px;
+  color: #313d5d;
+  line-height: 40px;
+  margin-bottom: 10px;
 }
 
 .home--banner__info div p {
-    color: #5b6b80;
-    font-size: 13px;
-    font-style: italic !important;
+  color: #5b6b80;
+  font-size: 13px;
+  font-style: italic !important;
 }
 
 .home--banner__info--time {
-    color: #5b6b80;
-    font-size: 13px;
+  color: #5b6b80;
+  font-size: 13px;
 }
 
 .banner-home__item {
-    font-size: 16px;
-    line-height: 30px;
-    color: #88929f;
+  font-size: 16px;
+  line-height: 30px;
+  color: #88929f;
+  margin-bottom: 30px;
 }
 
 .banner-home__btn {
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content:  flex-end;
+}
+
+.home-banner__list--container {
+  width: 50%;
+}
+.banner-home__container--list {
+  width: 50%;
 }
 
 .home-banner__list--container_list--img {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    position: relative;
-    /* Thêm box-sizing để giảm thiểu các lỗi đo dựt */
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 60px;
+  /* Thêm box-sizing để giảm thiểu các lỗi đo dựt */
 }
 
 .home-banner__list--container_list--img div {
-    position: absolute;
-    bottom: 0px;
-    background: #000;
-    color: #fff;
-    font-size: 12px;
-    padding: 4px 12px;
+  position: absolute;
+  bottom: 0px;
+  background: #000;
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 12px;
+  bottom: 20px;
 }
 
 .home-banner__list--container_list--img div:hover {
-    position: absolute;
-    bottom: 0px;
-    background: #4776e6;
-    color: #fff;
-    font-size: 12px;
-    padding: 4px 12px;
-    transition: all 0.5s ease-in-out;
+  position: absolute;
+  bottom: 0px;
+  background: #4776e6;
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 12px;
+  transition: all 0.5s ease-in-out;
 }
 
-
-
 .home-banner__list--container_list--img img {
-    width: 100%;
-    transition: transform 0.3s ease;
+  width: 100%;
+  transition: transform 0.8s ease;
 }
 
 .home-banner__list--container_list--img img:hover {
-    transform: scale(1.2);
-    animation: zoomIn 0.3s ease;
+  transform: scale(1.1);
 }
 
-
 .banner-home__btn div {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 16px;
-    color: #5b6b80;
-    padding: 6px 20px;
-    border-radius: 20px;
-    border: 1px solid #e4e5ea;
-    transition: all 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  color: #5b6b80;
+  padding: 6px 20px;
+  border-radius: 20px;
+  border: 1px solid #e4e5ea;
+  transition: all 0.5s ease-in-out;
 }
 
 .banner-home__btn div:hover {
-    background-color: #4776e6;
-    color: #fff;
+  background-color: #4776e6;
+  color: #fff;
 }
 
 .banner-home__container {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-    background-color: #ffffff;
-    border: 1px solid #e4e5ea;
-    margin-bottom: 30px;
-    border-radius: 20px;
-    transition: box-shadow 0.3s ease;
+  display: flex;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #e4e5ea;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  transition: box-shadow 0.3s ease;
 }
+
 
 .banner-home__container:hover {
-    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
-    /* Thêm shadow ở phía dưới khi hover */
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+  /* Thêm shadow ở phía dưới khi hover */
 }
 
-
+.banner-home__container_list--img{
+    width: 40%;
+}
 
 .banner-home__list--img {
-    width: 244px;
-    border-radius: 15px;
-    transition: transform 0.3s ease;
-    overflow: hidden;
-    position: relative;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+  position: relative;
 }
 
 .banner-home__list--img div {
-    position: absolute;
-    bottom: 20px;
-    background-color: #000;
-    color: #fff;
-    padding: 4px 10px;
-    font-size: 12px;
-    transition: all 0.2s ease-in-out;
+  position: absolute;
+  bottom: 20px;
+  background-color: #000;
+  color: #fff;
+  padding: 4px 10px;
+  font-size: 12px;
+  transition: all 0.2s ease-in-out;
 }
 
 .banner-home__list--img div:hover {
-    position: absolute;
-    bottom: 20px;
-    background-color: #4776e6;
-    color: #fff;
-    padding: 4px 10px;
-    font-size: 12px
+  position: absolute;
+  bottom: 20px;
+  background-color: #4776e6;
+  color: #fff;
+  padding: 4px 10px;
+  font-size: 12px;
 }
 
 .banner-home__list--img img:hover {
-    transform: scale(1.2);
-    /* Phóng to hình ảnh khi hover */
+  transform: scale(1.2);
+  /* Phóng to hình ảnh khi hover */
+}
+
+.banner-home__list--item {
+  margin-left: 20px;
+  width: 60%;
 }
 
 .banner-home__list--item__titel {
-    font-size: 21px;
-    line-height: 29px;
-    color: #313d5d;
-    margin-bottom: 14px;
-    font-weight: 700;
+  font-size: 21px;
+  line-height: 29px;
+  color: #313d5d;
+  margin-bottom: 14px;
+  font-weight: 700;
 }
 
 .home--banner__dot {
-    color: #6ec1e4;
+  color: #6ec1e4;
+}
+
+.home--banner__info--mobile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 /* Định nghĩa animation */
 @keyframes zoomIn {
-    from {
-        transform: scale(1);
-    }
+  from {
+    transform: scale(1);
+  }
 
-    to {
-        transform: scale(1.2);
-    }
+  to {
+    transform: scale(1.2);
+  }
 }
 
 /* Áp dụng animation vào phần tử img khi hover */
 .banner-home__list--img img {
-    width: 100%;
-    /* Đảm bảo hình ảnh chiếm toàn bộ không gian của phần tử cha */
-    transition: transform 0.3s ease;
-    /* Thêm transition cho hiệu ứng mềm mại */
+  width: 100%;
+  /* Đảm bảo hình ảnh chiếm toàn bộ không gian của phần tử cha */
+  transition: transform 0.3s ease;
+  /* Thêm transition cho hiệu ứng mềm mại */
 }
 
 .banner-home__list--img img:hover {
-    transform: scale(1.2);
-    animation: zoomIn 0.3s ease;
-    /* Thêm animation khi hover */
+  transform: scale(1.2);
+  animation: zoomIn 0.3s ease;
+  /* Thêm animation khi hover */
 }
+
+
+@media (max-width: 1024px) {
+    .home-banner__list{
+        display: block;
+    }
+    .home-banner__list--container{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .banner-home__container--list{
+        width: 100%;
+    }
+    .banner-home__container{
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .home-banner__list--item__heading{
+        font-size: 24px;
+        font-family: 700;
+    }
+    .banner-home__container{
+        align-items: center;
+    }
+    .banner-home__list--img img{
+        height: 190px;
+    }
+  }
+
+@media (max-width: 768px) {
+    .banner-home__btn div {
+        display: none;
+    }
+    .home--banner__info{
+        display: block;
+    }
+    .home--banner__info--mobile{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+  }
