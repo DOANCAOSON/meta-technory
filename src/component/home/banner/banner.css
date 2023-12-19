@@ -1,0 +1,221 @@
+.home-banner {
+    margin: 100px 0px;
+}
+
+.home-banner__heading {
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    color: #313d5d;
+}
+
+.home-banner__desc {
+    font-size: 16px;
+    text-align: center;
+    color: #5b6b80;
+}
+
+.home-banner__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.home-banner__list--container {
+    border-radius: 15px;
+    border: 1px solid #e4e5ea;
+    padding: 0px 20px;
+    height: 500px;
+    transition: box-shadow 0.3s ease;
+}
+
+.home-banner__list--container:hover {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.home--banner__info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 33px;
+}
+
+.home--banner__info--item {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.home-banner__list--item__heading {
+    font-size: 29px;
+    color: #313d5d;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.home--banner__info div p {
+    color: #5b6b80;
+    font-size: 13px;
+    font-style: italic !important;
+}
+
+.home--banner__info--time {
+    color: #5b6b80;
+    font-size: 13px;
+}
+
+.banner-home__item {
+    font-size: 16px;
+    line-height: 30px;
+    color: #88929f;
+}
+
+.banner-home__btn {
+    display: flex;
+    justify-content: end;
+}
+
+.home-banner__list--container_list--img {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    /* Thêm box-sizing để giảm thiểu các lỗi đo dựt */
+}
+
+.home-banner__list--container_list--img div {
+    position: absolute;
+    bottom: 0px;
+    background: #000;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 12px;
+}
+
+.home-banner__list--container_list--img div:hover {
+    position: absolute;
+    bottom: 0px;
+    background: #4776e6;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 12px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+.home-banner__list--container_list--img img {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.home-banner__list--container_list--img img:hover {
+    transform: scale(1.2);
+    animation: zoomIn 0.3s ease;
+}
+
+
+.banner-home__btn div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    color: #5b6b80;
+    padding: 6px 20px;
+    border-radius: 20px;
+    border: 1px solid #e4e5ea;
+    transition: all 0.5s ease-in-out;
+}
+
+.banner-home__btn div:hover {
+    background-color: #4776e6;
+    color: #fff;
+}
+
+.banner-home__container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e4e5ea;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.banner-home__container:hover {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    /* Thêm shadow ở phía dưới khi hover */
+}
+
+
+
+.banner-home__list--img {
+    width: 244px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-home__list--img div {
+    position: absolute;
+    bottom: 20px;
+    background-color: #000;
+    color: #fff;
+    padding: 4px 10px;
+    font-size: 12px;
+    transition: all 0.2s ease-in-out;
+}
+
+.banner-home__list--img div:hover {
+    position: absolute;
+    bottom: 20px;
+    background-color: #4776e6;
+    color: #fff;
+    padding: 4px 10px;
+    font-size: 12px
+}
+
+.banner-home__list--img img:hover {
+    transform: scale(1.2);
+    /* Phóng to hình ảnh khi hover */
+}
+
+.banner-home__list--item__titel {
+    font-size: 21px;
+    line-height: 29px;
+    color: #313d5d;
+    margin-bottom: 14px;
+    font-weight: 700;
+}
+
+.home--banner__dot {
+    color: #6ec1e4;
+}
+
+/* Định nghĩa animation */
+@keyframes zoomIn {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+/* Áp dụng animation vào phần tử img khi hover */
+.banner-home__list--img img {
+    width: 100%;
+    /* Đảm bảo hình ảnh chiếm toàn bộ không gian của phần tử cha */
+    transition: transform 0.3s ease;
+    /* Thêm transition cho hiệu ứng mềm mại */
+}
+
+.banner-home__list--img img:hover {
+    transform: scale(1.2);
+    animation: zoomIn 0.3s ease;
+    /* Thêm animation khi hover */
+}

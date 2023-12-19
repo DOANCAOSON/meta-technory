@@ -1,9 +1,13 @@
+import Banner from "../component/home/banner/Banner";
+import Category from "../component/home/category/category";
+import ListPost from "../component/home/postlist/ListPost";
+
 const Home = () => {
   return (
     <>
-      <div className="w-[100%] h-[100vh] flex justify-center items-center text-[64px] text-textmainstream mb-[100vh] text-center">
-        Home
-      </div>
+      <Banner />
+      <Category />
+      <ListPost />
     </>
   );
 };

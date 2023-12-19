@@ -1,0 +1,33 @@
+.home-category__conatainer {
+    margin-bottom: 30px;
+}
+
+.home-category__list {
+    text-align: center;
+    font-size: 21px;
+    line-height: 29px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    color: #313d5d;
+}
+
+.home-category ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-category ul li {
+    font-size: 17px;
+    color: #313d5d;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+    line-height: 17px;
+}
+
+.home-category ul li:hover {
+    font-size: 17px;
+    color: #4776e6;
+    cursor: pointer;
+}
