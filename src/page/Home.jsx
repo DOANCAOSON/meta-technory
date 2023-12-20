@@ -1,13 +1,9 @@
-import Banner from "../component/home/banner/Banner";
-import Category from "../component/home/category/category";
-import ListPost from "../component/home/postlist/ListPost";
+import HomeIndex from "../component/home/HomeIndex";
 
 const Home = () => {
   return (
     <>
-      <Banner />
-      <Category />
-      <ListPost />
+      <HomeIndex />
     </>
   );
 };
