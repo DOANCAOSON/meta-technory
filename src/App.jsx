@@ -15,16 +15,15 @@ import Payment from "./page/Payment";
 import Login from "./page/Login";
 import ProductDetail from "./page/ProductDetail";
 import ProductList from "./page/ProductList";
+import SideBar from "./component/SlideBar";
 
 function App() {
   return (
     <div className="app-container">
       <div className="app-container_list">
         <BrowserRouter>
+          <SideBar />
           <Header />
-          {/* <HeaderMobile /> */}
-
-          <ScrollToTop />
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route
