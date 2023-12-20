@@ -1,4 +1,20 @@
-[[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
+[build]
+  # The publish directory is where the built site will be placed
+  publish = "dist"
+
+  # The command that builds your site
+  command = "npm run build"  # Adjust this based on your build script
+
+  # The base directory for the build command. Default is the root of your repo
+  base = "/"
+
+  # Environment variables that will be available to the build
+  environment = { NODE_ENV = "production" }
+
+  # Skip parts of the build process
+  skip_process = ["lfs", "cache"]
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Add other configurations as needed
