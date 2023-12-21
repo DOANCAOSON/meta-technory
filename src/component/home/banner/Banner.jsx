@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './banner.css';
 import { FaChevronRight } from "react-icons/fa";
 
@@ -54,7 +55,7 @@ const Banner = () => {
             </div>
           </div>
           <div className='banner-home__container--list'>
-            <div className='banner-home__container'>
+            <Link to="/detail" className='banner-home__container'>
               <div className='banner-home__container_list--img'>
                 <div className='banner-home__list--img'>
                   <img src="
@@ -90,8 +91,8 @@ const Banner = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className='banner-home__container'>
+            </Link>
+            <Link to="/detail" className='banner-home__container'>
               <div className='banner-home__container_list--img'>
                 <div className='banner-home__list--img'>
                   <img src="
@@ -128,8 +129,8 @@ const Banner = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className='banner-home__container'>
+            </Link>
+            <Link to='/detail' className='banner-home__container'>
               <div className='banner-home__container_list--img'>
                 <div className='banner-home__list--img'>
                   <img src="
@@ -165,7 +166,7 @@ const Banner = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>

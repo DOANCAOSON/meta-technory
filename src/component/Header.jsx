@@ -5,14 +5,16 @@ import { GrPinterest } from "react-icons/gr";
 import { CgInstagram } from "react-icons/cg";
 import { FaTwitter } from "react-icons/fa";
 import { FaChevronDown } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header className="header">
       <div className="header-logo">
-        <div className="header-img__list">
+
+        <Link to='/' className="header-img__list">
           <img src={logo} alt="" />
-        </div>
+        </Link>
         <div className="header-category">
           <ul className="header-category_list">
             <li className="header-category_list--item">HOME

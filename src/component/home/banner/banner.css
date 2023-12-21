@@ -73,12 +73,13 @@
 
 .banner-home__btn {
   display: flex;
-  justify-content:  flex-end;
+  justify-content: flex-end;
 }
 
 .home-banner__list--container {
   width: 50%;
 }
+
 .banner-home__container--list {
   width: 50%;
 }
@@ -154,8 +155,8 @@
   /* Thêm shadow ở phía dưới khi hover */
 }
 
-.banner-home__container_list--img{
-    width: 40%;
+.banner-home__container_list--img {
+  width: 40%;
 }
 
 .banner-home__list--img {
@@ -206,10 +207,10 @@
   color: #6ec1e4;
 }
 
-.home--banner__info--mobile{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.home--banner__info--mobile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 /* Định nghĩa animation */
@@ -239,43 +240,56 @@
 
 
 @media (max-width: 1024px) {
-    .home-banner__list{
-        display: block;
-    }
-    .home-banner__list--container{
-        width: 100%;
-        margin-bottom: 40px;
-    }
-    .banner-home__container--list{
-        width: 100%;
-    }
-    .banner-home__container{
-        align-items: center;
-        margin-bottom: 40px;
-    }
-    .home-banner__list--item__heading{
-        font-size: 24px;
-        font-family: 700;
-    }
-    .banner-home__container{
-        align-items: center;
-    }
-    .banner-home__list--img img{
-        height: 190px;
-    }
+  .home-banner__list {
+    display: block;
   }
 
-@media (max-width: 768px) {
-    .banner-home__btn div {
-        display: none;
-    }
-    .home--banner__info{
-        display: block;
-    }
-    .home--banner__info--mobile{
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        width: 100%;
-    }
+  .home-banner__list--container {
+    width: 100%;
+    margin-bottom: 40px;
   }
+
+  .banner-home__container--list {
+    width: 100%;
+  }
+
+  .banner-home__container {
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .home-banner__list--item__heading {
+    font-size: 24px;
+    font-family: 700;
+  }
+
+  .banner-home__container {
+    align-items: center;
+  }
+
+  .banner-home__list--img img {
+    height: 190px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-home__btn div {
+    display: none;
+  }
+
+  .home--banner__info {
+    display: block;
+  }
+
+  .home--banner__info--mobile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+}
+
+.detailbanner-icon {
+  justify-content: flex-start;
+  font-size: 14px;
+}

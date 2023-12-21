@@ -16,7 +16,6 @@ import Login from "./page/Login";
 import ProductDetail from "./page/ProductDetail";
 import ProductList from "./page/ProductList";
 import SideBar from "./component/SlideBar";
-import HomeIndex from "./component/home/HomeIndex";
 
 function App() {
   return (
@@ -26,7 +25,7 @@ function App() {
           <SideBar />
           <Header />
           <Routes>
-            <Route exact path="/" element={<HomeIndex />} />
+            <Route exact path="/" element={<Home />} />
             <Route
               path="/tramtintuc"
               element={<Tramtintuc />}

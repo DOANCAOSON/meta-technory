@@ -1,0 +1,88 @@
+.detail-banner {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.detail-banner__title-heading {
+    font-size: 38px;
+    color: #313d5d;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.detail-banner__meta {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.meta-details__date--list {
+    display: flex;
+    gap: 10px;
+}
+
+.author-avatar {
+    width: 55px;
+    height: 55px;
+}
+
+.author-name {
+    color: #4776e6;
+    transition: all 0.3s ease-in-out;
+}
+
+.author-name:hover {
+    color: #5b6b80;
+}
+
+.detail-banner__align-items-center {
+    display: flex;
+    gap: 20px;
+}
+
+.detail-banner__rivax-breadcrumb {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.detail-banner__current {
+    color: #313d5d;
+    font-size: 14px;
+    display: flex;
+    width: 100%;
+}
+
+.detail-banner__align-items-center__list {
+    width: 33%;
+}
+
+.detail-banner__align-items-center_img {
+    width: 66.67%;
+}
+
+.detail-banner__image-container {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.detail-banner_category a {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+.detail-banner__current {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    font-size: 14px;
+}
+
+.meta-details__date--list__item {
+    font-size: 12px;
+}
