@@ -19,6 +19,7 @@
 .meta-details__date--list {
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .author-avatar {
@@ -38,6 +39,8 @@
 .detail-banner__align-items-center {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .detail-banner__rivax-breadcrumb {
@@ -59,7 +62,7 @@
 }
 
 .detail-banner__align-items-center_img {
-    width: 66.67%;
+    width: 64%;
 }
 
 .detail-banner__image-container {
@@ -86,3 +89,42 @@
 .meta-details__date--list__item {
     font-size: 12px;
 }
+
+@media (max-width: 1024px) {
+
+    .detail-banner__align-items-center__list {
+        width: 30%;
+    }
+    
+    .detail-banner__align-items-center_img {
+        width: 67%;
+    }
+
+    .detail-banner__title-heading{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    
+   
+}
+
+
+@media (max-width: 768px) {
+    .detail-banner__align-items-center__list {
+        width: 100%;
+    }
+    
+    .detail-banner__align-items-center_img {
+        width: 100%;
+    }
+
+    .detail-banner__title-heading{
+        font-size: 28px;
+        line-height: 40px;
+    }
+   
+}
+  
+
+
+  

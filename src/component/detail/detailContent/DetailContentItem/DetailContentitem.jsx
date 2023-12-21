@@ -89,7 +89,7 @@ const DetailContentitem = () => {
                             <div className="DetailContentitem__banner-share__heading">
                                 Please share this article if you like it!
                             </div>
-                            <div>
+                            <div className='DetailContentitem__banner-share--list'>
                                 <div className="single-share-box">
                                     <Link className="facebook" rel="nofollow" href="https://www.facebook.com/sharer/sharer.php?u=https://gobomus.com/style-is-a-way-to-say-who-you-are-without-having-to-speak-2/" target="_blank"><FaSquareFacebook /></Link>
                                     <Link className="twitter st-hover" rel="nofollow" href="https://twitter.com/intent/tweet?text=Style+Is+A+Way+To+Say+Who+You+Are%2C+Without+Having+To+Speak&amp;url=https://gobomus.com/style-is-a-way-to-say-who-you-are-without-having-to-speak-2/" target="_blank"><FaTwitter /></Link>
@@ -116,17 +116,17 @@ const DetailContentitem = () => {
                         </div>
                     </div>
 
-                    <div>
-                        <div>
+                    <div className='OtherArticles__container'>
+                        <div className='OtherArticles__container--lisst'>
                             <h1>Other Articles</h1>
                         </div>
                     </div>
                     <div className="DetailContentitem-Banner__list-post">
                         <Link to="/detail" className='banner-home__container DetailContentitem-Banner__container '>
                             <div className='banner-home__container_list--img'>
-                                <div className='banner-home__list--img'>
+                                <div className='banner-home__list--img banner-detail__list--img'>
                                     <img src="
-               https://gobomus.com/wp-content/uploads/2023/06/brooke-cagle-B_LjR_poGgo-unsplash-300x200.jpg" alt="https://gobomus.com/wp-content/uploads/2023/06/brooke-cagle-B_LjR_poGgo-unsplash-300x200.jpg" />
+                                             https://gobomus.com/wp-content/uploads/2023/06/brooke-cagle-B_LjR_poGgo-unsplash-300x200.jpg" alt="https://gobomus.com/wp-content/uploads/2023/06/brooke-cagle-B_LjR_poGgo-unsplash-300x200.jpg" />
 
                                 </div>
                             </div>
@@ -144,7 +144,7 @@ const DetailContentitem = () => {
                         </Link>
                         <Link to="/detail" className='banner-home__container DetailContentitem-Banner__container '>
                             <div className='banner-home__container_list--img'>
-                                <div className='banner-home__list--img'>
+                                <div className='banner-home__list--img banner-detail__list--img'>
                                     <img src="
                https://gobomus.com/wp-content/uploads/2023/06/brooke-cagle-B_LjR_poGgo-unsplash-300x200.jpg" alt="https://gobomus.com/wp-content/uploads/2023/06/brooke-cagle-B_LjR_poGgo-unsplash-300x200.jpg" />
 
@@ -296,7 +296,7 @@ const DetailContentitem = () => {
                             </div>
                         </article>
                     </div>
-                    
+
                 </div>
             </div>
 

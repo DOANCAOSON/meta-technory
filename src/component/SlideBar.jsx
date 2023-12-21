@@ -1,10 +1,19 @@
 import { useState } from 'react';
+
+
 const SideBar = () => {
     const [isOffcanvasOpen, setOffcanvasOpen] = useState(false);
     console.log(isOffcanvasOpen)
 
     const handleOffcanvasToggle = () => {
         setOffcanvasOpen(!isOffcanvasOpen);
+    };
+
+
+    const [activeMenu, setActiveMenu] = useState(null);
+
+    const toggleMenu = (menuName) => {
+        setActiveMenu(activeMenu === menuName ? null : menuName);
     };
 
 
@@ -18,6 +27,8 @@ const SideBar = () => {
                 </span>
             </span>
             <div className={` sideber-item ${isOffcanvasOpen ? 'sideber-click' : 'sideber-removeclick'}`}>
+                
+
 
             </div>
         </div>
