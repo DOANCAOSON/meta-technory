@@ -8,6 +8,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { IoLogoWhatsapp } from "react-icons/io5";
 import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
+import { FaRegPaperPlane } from "react-icons/fa";
 
 const DetailContentitem = () => {
 
@@ -169,6 +170,120 @@ const DetailContentitem = () => {
                 <div className="DetailContentitem-Banner__list-img">
                     <img src="https://gobomus.com/wp-content/uploads/2023/09/Banner600-min-550x795.jpg" alt="banner-detail" />
                 </div>
+
+                <div className="detail-banner__postitem--ramdum--container__all">
+                    <div className="detail-banner__postitem--ramdum--container__list">
+                        <div className="detail-banner__postitem--ramdum--container__line-list">
+                        </div>
+                        <div className="detail-banner__postitem--ramdum--container__heading detailContentitem-Banner__list-FeaturedPosts ">
+                            Featured Posts
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="DetailContentitem-Banner__list-card">
+                        <div>
+                            <div className="DetailContentitem-Banner__list-card-image">
+                                <img src="https://gobomus.com/wp-content/uploads/2023/08/becca-tapert-A_Sx8GrRWg-unsplash-min-150x150.jpg" alt="Inspirational1 Image" />
+                            </div>
+                        </div>
+                        <div className="DetailContentitem-Banner__list-card__list">
+                            <h2 className="DetailContentitem-Banner__list-card-title">I Work Best When My Space Is Filled With Inspiration</h2>
+                            <div className="DetailContentitem-Banner__list-card-date">June 6, 2023</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="DetailContentitem-Banner__list-card">
+                        <div>
+                            <div className="DetailContentitem-Banner__list-card-image">
+                                <img src="https://gobomus.com/wp-content/uploads/2023/06/simone-hutsch-jbyLu_fh5fY-unsplash-scaled-1-150x150.jpg" alt="Inspirational2 Image" />
+                            </div>
+                        </div>
+                        <div className="DetailContentitem-Banner__list-card__list">
+                            <h2 className="DetailContentitem-Banner__list-card-title">I Work Best When My Space Is Filled With Inspiration</h2>
+                            <div className="DetailContentitem-Banner__list-card-date">June 6, 2023</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="DetailContentitem-Banner__list-card">
+                        <div>
+                            <div className="DetailContentitem-Banner__list-card-image">
+                                <img src="https://gobomus.com/wp-content/uploads/2023/08/becca-tapert-rmWAZkJ6NaA-unsplash-min-scaled-1-150x150.jpg" alt="Inspirational Image" />
+                            </div>
+                        </div>
+                        <div className="DetailContentitem-Banner__list-card__list">
+                            <h2 className="DetailContentitem-Banner__list-card-title">I Work Best When My Space Is Filled With Inspiration</h2>
+                            <div className="DetailContentitem-Banner__list-card-date">June 6, 2023</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div className="newsletter-container">
+                        <div className="newsletter-header">
+                            NEWSLETTER
+                        </div>
+                        <div className="newsletter-text">
+                            Fill your email below to subscribe to my newsletter
+                        </div>
+                        <div className="newsletter-input-group">
+                            <input type="email" placeholder="Email" />
+                            <button><FaRegPaperPlane className='newsletter-input-group__icon' />
+                            </button>
+                        </div>
+                        <div className="newsletter-container__follow">
+                            Follow Me
+                        </div>
+                        <div className="social-icons">
+                            <a href="#" target="_blank"><FaSquareFacebook /></a>
+                            <a href="#" target="_blank"><FaTwitter /></a>
+                            <a href="#" target="_blank"><GrPinterest /></a>
+                            <a href="#" target="_blank"><IoLogoWhatsapp /></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="detail-banner__postitem--ramdum--container__all">
+                    <div className="detail-banner__postitem--ramdum--container__list">
+                        <div className="detail-banner__postitem--ramdum--container__line-list">
+                        </div>
+                        <div className="detail-banner__postitem--ramdum--container__heading detailContentitem-Banner__list-FeaturedPosts ">
+                            Categories
+                        </div>
+                    </div>
+                </div>
+
+                <div className="detail-banner__tag-container">
+                    <div className="detail-banner__tag">
+                        <span>Health</span>
+                        <span className="detail-banner__tag-count">9</span>
+                    </div>
+                    <div className="detail-banner__tag">
+                        <span>Lifestyle</span>
+                        <span className="detail-banner__tag-count">9</span>
+                    </div>
+                    <div className="detail-banner__tag">
+                        <span>Music</span>
+                        <span className="detail-banner__tag-count">9</span>
+                    </div>
+                    <div className="detail-banner__tag">
+                        <span>Technology</span>
+                        <span className="detail-banner__tag-count">8</span>
+                    </div>
+                    <div className="detail-banner__tag">
+                        <span>Travel</span>
+                        <span className="detail-banner__tag-count">8</span>
+                    </div>
+                    <div className="detail-banner__tag">
+                        <span>Uncategorized</span>
+                        <span className="detail-banner__tag-count">2</span>
+                    </div>
+                </div>
+
+
+
             </div>
 
             <div className="detail-banner__postitem--ramdum--container">
@@ -233,7 +348,6 @@ const DetailContentitem = () => {
                                         <span className="detail_banner--content__meta-wrapper__date">
                                             October 14, 2023            </span>
                                     </div>
-
                                 </div>
                             </div>
                         </article>
@@ -262,7 +376,6 @@ const DetailContentitem = () => {
                                         <span className="detail_banner--content__meta-wrapper__date">
                                             October 14, 2023            </span>
                                     </div>
-
                                 </div>
                             </div>
                         </article>
@@ -291,7 +404,6 @@ const DetailContentitem = () => {
                                         <span className="detail_banner--content__meta-wrapper__date">
                                             October 14, 2023            </span>
                                     </div>
-
                                 </div>
                             </div>
                         </article>
